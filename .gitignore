@@ -1,2 +1,3 @@
 *.yml
 *.ipynb_checkpoints
+notebooks/*.py
