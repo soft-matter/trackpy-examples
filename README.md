@@ -1,6 +1,8 @@
 trackpy-examples
 ================
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/soft-matter/trackpy-examples)
+
 This is a trove of **sample data, tutorials, examples, and speed tests** for the
 [trackpy particle-tracking toolkit](https://github.com/soft-matter/trackpy).
 See trackpy proper for installation instructions and more information about
