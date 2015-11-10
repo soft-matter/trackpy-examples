@@ -1,0 +1,7 @@
+ name: trackpy-examples
+ channels:
+   - https://conda.binstar.org/soft-matter
+   - https://conda.binstar.org/soft-matter/channel/dev
+ dependencies:
+   - python=3.4
+   - trackpy=v0.3.0rc1.post0
