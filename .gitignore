@@ -1,3 +1,5 @@
 *.yml
 *.ipynb_checkpoints
+.idea/*
+notebooks/data.h5
 notebooks/*.py
