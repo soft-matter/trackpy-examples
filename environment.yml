@@ -1,8 +1,11 @@
  name: trackpy-examples
  channels:
-   - https://conda.binstar.org/soft-matter
-   - https://conda.binstar.org/soft-matter/channel/dev
+   - defaults
+   - conda-forge
  dependencies:
-   - python=3.4
-   - trackpy=v0.3.0rc1.post0
+   - python=3
+   - trackpy=0.4.1
+   - pims
+   - pytables
+   - matplotlib
    - ipyparallel
