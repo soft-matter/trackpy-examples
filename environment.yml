@@ -1,8 +1,25 @@
  name: trackpy-examples
  channels:
-   - https://conda.binstar.org/soft-matter
-   - https://conda.binstar.org/soft-matter/channel/dev
+   - defaults
+   - conda-forge
  dependencies:
-   - python=3.4
-   - trackpy=v0.3.0rc1.post0
+   - python=3
+   - pip
+   - six
+   - pyyaml
+   - jinja2
+   - scikit-image
+   # Uncomment these if you need to analyze a movie file.
+   #- ffmpeg
+   #- av
+   #- moviepy
+   # Latest stable releases of trackpy and pims
+   - trackpy
+   - pims
+   - numba
+   - scipy
+   - pytables
+   - pandas
+   - matplotlib
    - ipyparallel
+
